@@ -1,4 +1,4 @@
-# PCNWLab Functions and Scope
+# PCNWLab Functions and Scope (~40 problems)
 Functions and Scope lab topic
 
 To complete this lab, do the following:
