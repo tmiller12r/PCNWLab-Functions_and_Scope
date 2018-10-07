@@ -10,15 +10,23 @@ if invalid input given, return -1
 ******************/
 
 function myAge( ageNow, numYears ) {
-       
+
+const ageLater = ageNow + numYears;
+
+console.log (`In ${numYears} years I will be ${ageLater} years old.`);
+console.log ("ageNow value:" + ageNow)
+console.log ("numYears:" + numYears);
+return ageLater
 }
+console.log(myAge(46,5))
+
 
 
 
 /******************
 Concatenate Strings
 
-Concatenating string variables
+Concatenating string variablesnode
 
 - Create a function called myConcatenate that takes 3 arguments
     * Create an argument called firstStr
