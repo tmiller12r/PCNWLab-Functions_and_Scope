@@ -10,7 +10,12 @@
     
     use a default parameter for the middleName, set it to ""
 */
+function getFullName(firstName, lastName, middleName =""){
+    
+    return `${firstName} ${middleName} ${lastName}`;
 
+}
+console.log(getFullName ("firstName", "lastName", "middleName"));
 
 /*
     PROBLEM 2:

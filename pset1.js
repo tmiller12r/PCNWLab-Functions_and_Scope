@@ -14,8 +14,8 @@ function myAge( ageNow, numYears ) {
 const ageLater = ageNow + numYears;
 
 console.log (`In ${numYears} years I will be ${ageLater} years old.`);
-console.log ("ageNow value:" + ageNow)
-console.log ("numYears:" + numYears);
+console.log ("ageNow value: " + ageNow)
+console.log ("numYears: " + numYears);
 return ageLater
 }
 console.log(myAge(46,5))
